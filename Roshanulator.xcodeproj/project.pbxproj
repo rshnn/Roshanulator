@@ -13,6 +13,7 @@
 		13744B0A1B0FD95F0027CB2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13744B091B0FD95F0027CB2E /* Images.xcassets */; };
 		13744B0D1B0FD95F0027CB2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13744B0B1B0FD95F0027CB2E /* LaunchScreen.xib */; };
 		13744B191B0FD95F0027CB2E /* RoshanulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13744B181B0FD95F0027CB2E /* RoshanulatorTests.swift */; };
+		13CC63681B13891900C616ED /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CC63671B13891900C616ED /* Brain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		13744B121B0FD95F0027CB2E /* RoshanulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshanulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13744B171B0FD95F0027CB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13744B181B0FD95F0027CB2E /* RoshanulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshanulatorTests.swift; sourceTree = "<group>"; };
+		13CC63671B13891900C616ED /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,9 @@
 		13744AFF1B0FD95F0027CB2E /* Roshanulator */ = {
 			isa = PBXGroup;
 			children = (
-				13744B021B0FD95F0027CB2E /* AppDelegate.swift */,
+				13CC63671B13891900C616ED /* Brain.swift */,
 				13744B041B0FD95F0027CB2E /* ViewController.swift */,
 				13744B061B0FD95F0027CB2E /* Main.storyboard */,
-				13744B091B0FD95F0027CB2E /* Images.xcassets */,
-				13744B0B1B0FD95F0027CB2E /* LaunchScreen.xib */,
 				13744B001B0FD95F0027CB2E /* Supporting Files */,
 			);
 			path = Roshanulator;
@@ -90,6 +90,9 @@
 		13744B001B0FD95F0027CB2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13744B0B1B0FD95F0027CB2E /* LaunchScreen.xib */,
+				13744B021B0FD95F0027CB2E /* AppDelegate.swift */,
+				13744B091B0FD95F0027CB2E /* Images.xcassets */,
 				13744B011B0FD95F0027CB2E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13744B051B0FD95F0027CB2E /* ViewController.swift in Sources */,
+				13CC63681B13891900C616ED /* Brain.swift in Sources */,
 				13744B031B0FD95F0027CB2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				13744B1E1B0FD95F0027CB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13744B1F1B0FD95F0027CB2E /* Build configuration list for PBXNativeTarget "RoshanulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				13744B211B0FD95F0027CB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
