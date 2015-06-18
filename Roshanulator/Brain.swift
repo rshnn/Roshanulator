@@ -29,6 +29,27 @@ class Brain
     }
     
     
+    func clearStack(){
+        opStack = [Op]()
+    }
+    
+    
+    private func printStack(){
+        
+        for Op in opStack{
+            switch Op{
+                
+            case .Operand(let operand):
+                println(operand)
+            case .UnaryOperation(let operation, _):
+                print("\t" + operation)
+            case .BinaryOperation(let operation, _):
+                print("\t" + operation)
+            }
+            
+        }
+    }
+    
     private func evaluate(ops: [Op]) -> (result: Double?, remainingOps: [Op]){
      
         if !ops.isEmpty{
@@ -70,6 +91,7 @@ class Brain
     
     func pushOperand(operand: Double) -> Double?{
         opStack.append(Op.Operand(operand));
+        printStack();
         return evaluate();
     }
     

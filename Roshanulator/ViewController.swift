@@ -38,7 +38,13 @@ class ViewController: UIViewController {
                 displayValue = 0;
             }
         }
-        
+    }
+    
+    
+    @IBAction func clear(sender: UIButton) {
+        println("Clear Stack")
+        brain.clearStack()
+        displayValue = 0;
     }
     
     
@@ -51,8 +57,7 @@ class ViewController: UIViewController {
         }else{
             displayValue = 0;
         }
-    
-    
+        
     }
     
     

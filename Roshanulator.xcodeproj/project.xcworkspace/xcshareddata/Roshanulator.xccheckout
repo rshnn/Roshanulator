@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>236ECA70-1230-40B9-93D1-E2A08676030E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Roshanulator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>320C9E1576AD4267A60665C08D6E9C44D8693591</key>
+		<string>https://github.com/rshnn/Roshanulator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Roshanulator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>320C9E1576AD4267A60665C08D6E9C44D8693591</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rshnn/Roshanulator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>320C9E1576AD4267A60665C08D6E9C44D8693591</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>320C9E1576AD4267A60665C08D6E9C44D8693591</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Roshanulator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
